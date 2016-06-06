@@ -1,0 +1,12 @@
+application=clicktracker
+
+# admin api basic credentials
+api.admin.credentials.username=admin_username
+# password: admin_password
+api.admin.credentials.password_md5=
+
+api.tracker.invalid_click.redirect_url=http://...
+
+api.tracker.max_counter_shards=10000
+
+log.level = FINER

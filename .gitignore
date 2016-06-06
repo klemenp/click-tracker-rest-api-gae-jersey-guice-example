@@ -1,0 +1,12 @@
+/target
+/.classpath
+/.settings
+/.project
+.idea/
+*.im
+*.imll
+/target
+/local
+deploy.properties
+deploy.properties
+src/test/resources/test.properties

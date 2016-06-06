@@ -1,0 +1,14 @@
+api.admin.credentials.username=admin_username
+api.admin.credentials.password=admin_password
+
+api.tracker.invalid_click.redirect_url=${api.tracker.invalid_click.redirect_url}
+
+# Local
+api.tracker.click.url=http://localhost:8080/tracker/click
+api.admin.url=http://localhost:8080/admin/campaign
+api.clicks.url=http://localhost:8080/admin/clicks
+
+# Remote
+#api.tracker.click.url=https://${application}.appspot.com/tracker/click
+#api.admin.url=https://${application}.appspot.com/admin/campaign
+#api.clicks.url=https://${application}.appspot.com/admin/clicks

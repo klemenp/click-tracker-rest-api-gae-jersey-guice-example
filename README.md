@@ -23,7 +23,8 @@ Author: Klemen Polanec
 
 ### Install
 
-- Copy `deploy.properties.dist` to `deploy.properties` and customize.
+- Copy `deploy.properties.dist`* to `deploy.properties` and customize.
+  * * properties files values have all been removed for publishing reasons. Fill the empty values according to your project first.
 
 ##### Development
 
@@ -36,7 +37,8 @@ Author: Klemen Polanec
 
 ### Integration tests
 
-- Copy `test.properties.dist` to `test.properties` and customize.
+- Copy `test.properties.dist`* to `test.properties` and customize.
+  * properties files values have all been removed for publishing reasons. Fill the empty values according to your project first.
 - Make sure your local or remote server is running as specified in test.properties.
 - Run `mvn failsafe:integration-test`
 
